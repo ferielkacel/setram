@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "projet_web_last",
+		"path": "../../.."
+	},
+	{
+		"name": "phpmailer",
+		"path": "../../../../eb3et/phpmailer"
+	},
+	{
+		"name": "phpqrcode",
+		"path": "../../../../eb3et/phpqrcode"
+	}
+],
+  "settings": {}
+}

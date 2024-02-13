@@ -1,0 +1,80 @@
+img {
+  height: 150px;
+  width: 200px;
+}
+
+.hold {
+  width: 450px;
+  height: 625px;
+  border: 1px solid #a7b7c9;
+  margin: auto; /* Center the div both horizontally and vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  width: 340px;
+  height: 54px;
+  padding: 15.5px 93.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+#one {
+  color: #032d5a;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 24px;
+
+  font-weight: 600;
+}
+
+#two {
+  color: var(--Neutral-gray400, #a0a0a0);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  width: 340px;
+  height: 54px;
+  padding: 15.5px 93.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #032d5a;
+  color: var(--Shades-white, #fff);
+  text-align: center;
+
+  /* Subhead Web/lg/SH-lg-medium */
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 143.75% */
+}
+
+#l {
+  margin-bottom: -30px;
+  margin-top: -50px;
+}
+@media only screen and (min-width: 768px) {
+  /* Adjust styles for larger screens if needed */
+
+  button {
+    max-width: 400px;
+  }
+}
